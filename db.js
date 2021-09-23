@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
-  await mongoose.connect("mongodb+srv://ilias:ilias123@cluster0.r7ad4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+  await mongoose.connect("mongodb URI can be inserted here", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
